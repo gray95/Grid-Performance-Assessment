@@ -1,3 +1,5 @@
 slurm*/
 tools/
 io/
+*.json
+!results/*.json
