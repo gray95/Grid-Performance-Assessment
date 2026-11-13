@@ -33,8 +33,8 @@ ${BENCH_REPO}/bootstrap-env.sh ${GRID_ENV} ${GRID_SYS}
 . ${GRID_ENV}/env.sh ${GRID_CFG}
 
 # build Grid
-. ${BENCH_REPO}/build-grid.sh ${GRID_ENV} ${GRID_CFG} $NCORES
+${BENCH_REPO}/build-grid.sh ${GRID_ENV} ${GRID_CFG} $NCORES
 
 # build benchmarks
-. ${BENCH_REPO}/build-benchmark.sh ${GRID_ENV} ${GRID_CFG} $NCORES
+${BENCH_REPO}/build-benchmark.sh ${GRID_ENV} ${GRID_CFG} $NCORES
 
